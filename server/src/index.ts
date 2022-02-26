@@ -4,14 +4,14 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app: Application = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", async (_req: Request, res: Response) => {
   return res.status(200).send({
-    message: "Hello World!",
+    message: "Hello World!!!",
   });
 });
 
