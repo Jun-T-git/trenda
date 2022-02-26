@@ -1,0 +1,17 @@
+{
+  "name": "trenda",
+  "version": "1.0.0",
+  "repository": "https://github.com/Jun-T-git/trenda.git",
+  "author": "Jun-T-git <jun0303t@icloud.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "cl:dev": "yarn workspace client dev"
+  },
+  "workspaces": {
+    "packages": [
+      "client",
+      "server"
+    ]
+  }
+}
