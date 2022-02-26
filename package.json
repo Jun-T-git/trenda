@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "cl:dev": "yarn workspace client dev"
+    "cl:dev": "yarn workspace client dev",
+    "sr:dev": "yarn workspace server dev"
   },
   "workspaces": {
     "packages": [
